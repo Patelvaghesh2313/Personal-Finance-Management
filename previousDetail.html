@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PFM</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+ <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar"  style="background-color:black;" >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" title="uiCookies:Stack">Stack</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a  href="main.html">Home</a></li>
+            <li> <a href="expenceMain.html"]>Expences</a></li>
+            <li><a href="#">Contact Us</a></li>
+             <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle" class="icon"><i class="icon-cog2"></i> Details</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="icon"><i class="icon-database2"></i> Previos Details</a></li>
+                <li><a href="#"  class="icon"><i class="icon-user2"></i> Profile</a></li>
+                <li><a href="#" data-target="#signoutModal"  data-toggle="modal" class="icon"><i class="icon-switch2"></i> SignOut</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section  id="today" class="probootstrap-section probootstrap-black probootstrap-zindex-above-showcase">
+      <div id="page-wrapper">
+				<div class="graphs">
+                  <div class="col-md-6 col-md-offset-0 text-left section-heading probootstrap-animate" data-animate-effect="fadeIn">
+					<h2 class="blank1" id="">See Your Expence Details</h2>
+                      <span style="color:black;">Date:</span><br><br>
+                <span>
+                <div >
+                     <select style="border-radius:3px;width:200px;height:31px;">
+                         <option value="" selected disabled>-- Select Filter --</option>
+                          <option value="#">Today</option>
+                         <option value="#">Month</option>
+                         <option value="#">Year</option>
+
+
+                     </select>
+                </div>
+                </span>
+                  </div>
+					 <div class="xs tabls">
+						<div class="bs-example4" data-example-id="contextual-table">
+						<table class="table" style="color:black;">
+						  <thead>
+							<tr>
+							  <th>#</th>
+							  <th>Expence Name</th>
+							  <th>Value</th>
+							  <th>Date/Month/Year</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr class="active">
+							  <th scope="row">1</th>
+							  <td>Column content</td>
+							  <td>Column content</td>
+							  <td>Column content</td>
+							</tr>
+
+						  </tbody>
+						</table>
+					   </div>
+						</div>
+					</div>
+       </div>
+    </section>
+
+ <!-- Start modal Forgot -->
+    <div class="modal fadeInUp probootstrap-animated" id="signoutModal"  tabindex="-1" role="dialog" aria-labelledby="signoutModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-md vertical-align-center">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-cross"></i></button>
+            <div class="probootstrap-modal-flex">
+              <div class="probootstrap-modal-figure" style="background-image: url(img/modal_bg.jpg);"></div>
+              <div class="probootstrap-modal-content">
+                <form action="#" class="probootstrap-form">
+
+                    <p style="color:black;">Are You Really Want to Signout ?</p>
+
+                  <div class="form-group text-left">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <a href="index.html"><input type="button" class="btn btn-primary btn-block" value="Ok"></a>
+                      </div>
+                       <div class="col-md-6">
+                         <a href="previousDetail.html"><input type="cancel" class="btn btn-primary btn-block" value="cancel"></a>
+                       </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END modal Forgot -->
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+</body>
+</html>
