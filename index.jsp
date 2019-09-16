@@ -168,10 +168,10 @@
               <div class="probootstrap-modal-content">
                 <form action="doLogin.jsp" class="probootstrap-form">
                   <div class="form-group">
-                    <input type="text" name="email" class="form-control" placeholder="Email">
+                    <input type="text" name="email" class="form-control" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Password">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
                   </div>
                   <div class="form-group clearfix mb40">
                     <label for="remember" class="probootstrap-remember"><input type="checkbox" id="remember"> Remember Me</label>
@@ -206,14 +206,14 @@
 
 
                   <div class="form-group">
-                    <input type="text" class="form-control" name="fname" placeholder="First Name">
+                    <input type="text" class="form-control" name="fname" placeholder="First Name" required pattern="[A-Za-z]{1,}">
                   </div>
                      <div class="form-group">
-                    <input type="text" class="form-control" name="lname" placeholder="Last Name">
+                    <input type="text" class="form-control" name="lname" placeholder="Last Name" required pattern="[A-Za-z]{1,}">
                   </div>
 
                 <div class="form-group">
-                   <input type="number" class="form-control" name="age" placeholder="Age">
+                   <input type="number" class="form-control" name="age" placeholder="Age" required pattern="[0-9]{1,}" >
                 </div>
 
                  <div class="form-group">
@@ -228,13 +228,13 @@
                 </div>
 
                   <div class="form-group">
-                    <input type="text" name="email" class="form-control" placeholder="Email">
+                    <input type="text" name="email" class="form-control" placeholder="Email"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Password">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
                   </div>
                   <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Re-type Password">
+                    <input type="password" class="form-control" placeholder="Re-type Password" required>
                   </div>
                 <br>
                   <div class="form-group text-left">
