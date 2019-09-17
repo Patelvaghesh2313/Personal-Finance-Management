@@ -139,10 +139,10 @@
             <div class="service hover_service text-left">
               <div class="icon"><i class="icon-office"></i></div>
               <div class="text">
-                <h2><hr><b>For Business Men</hr></b> </h2>
+                <h2><hr><b>For Others</hr></b> </h2>
                <p><h4>How We help you?</h4></p>
-                <p>If you want secure your data we provide privacy.</p>
-                <p>  compare your business growth then past year ,month or week.
+                <p>If any one want to save money if they are not in above catagory .</p>
+                <p> securely save your own money by own self.
                 </p>
               </div>
             </div>
